@@ -1,0 +1,45 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  body{
+    background-color: #111827;
+    font-family: 'Poppins';
+    
+  }
+}
+
+input {
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+}
+
+button {
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+}
+.container{
+  margin-top: 5%;
+  color: white;
+  background-color: #1F2937;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.taskTab{
+  margin-bottom: 2%;
+}
+.itemOp{
+margin-left: 50%;
+}
+.clearTab{
+  flex: content;
+  margin-left: 78%;
+  color: gray;
+  font-size: 12px;
+}
+.clearTab:hover{
+  color: red;
+}
